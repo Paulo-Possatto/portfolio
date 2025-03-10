@@ -1,0 +1,83 @@
+body.light-mode {
+    background-color: white;
+    color: black;
+}
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+.dark-mode .navbar {
+    background-color: #1f1f1f !important;
+}
+
+.dark-mode .card {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode .card .card-body {
+    background-color: #444;
+}
+
+.dark-mode .card-title, .dark-mode .card-text{
+    color: white;
+}
+
+.dark-mode .card-subtitle {
+    color: rgb(190, 190, 190) !important;
+}
+
+.dark-mode a img {
+    color: wheat;
+}
+
+#home{
+    padding-top: 80px;
+}
+
+#experience .card, #projects .card {
+    border: 1px solid #ddd; 
+    transition: transform 0.3s ease;
+}
+
+#experience .card:hover, #projects .card:hover {
+    transform: translateY(-10px);
+}
+
+#experience .card-body ul, #projects .card-body ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#experience .card-body ul li, #projects .card-body ul li {
+    margin-bottom: 10px;
+}
+
+#about .container {
+    padding: 40px 0;
+}
+
+#about img {
+    max-width: 80%;
+    border: 5px solid #ddd;
+}
+
+#about h3 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+#about p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+#about a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#about a:hover {
+    text-decoration: underline;
+}
+

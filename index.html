@@ -1,1 +1,209 @@
-<h1>Portfolio - Paulo Possatto</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-mode">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Paulo Possatto Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home" id="nav-home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects" id="nav-projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience" id="nav-experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about" id="nav-about">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact" id="nav-contact">Contact</a></li>
+                    <li class="nav-item"><button class="btn btn-light" id="toggle-darkmode">Dark Mode</button></li>
+                    <li class="nav-item"><button class="btn btn-primary ms-2" id="toggle-lang">ES</button></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section id="home" class="container mt-5 text-center">
+        <h1 id="home-title" class="mt-3">Hi, I'm Paulo Possatto, a Back-end Developer</h1>
+        <p id="home-desc">With over 5 years of experience building scalable and efficient backend solutions with Java and Spring Boot.</p>
+        <a href="#projects" class="btn btn-primary" id="view-projects">View My Projects</a>
+        <a href="assets/docs/CV_EN.pdf" class="btn btn-secondary ms-2" download id="download-resume">Download Resume</a>
+    </section>
+
+    <section id="experience" class="container mt-5">
+        <h2 class="text-center" id="experience-title">Experience</h2>
+        
+        <div class="row">
+            <div class="col-md-4 mt-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">IT Consultant</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Huxley | Jan/2025</h6>
+                        <ul>
+                            <li>Developed microservices using Java and Spring Boot</li>
+                            <li>Integrated messaging systems with RabbitMQ</li>
+                            <li>Optimized database queries using PostgreSQL</li>
+                        </ul>
+                        <a href="https://www.huxley.com/es-es/" class="btn btn-primary" target="_blank">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mt-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Java Developer</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">AD4 Octógono | Sep/2024 - Oct/2024</h6>
+                        <ul>
+                            <li>Worked on large-scale applications with Java and Spring Framework</li>
+                            <li>Collaborated in Agile teams to implement new features</li>
+                            <li>Improved application performance by 30%</li>
+                        </ul>
+                        <a href="https://ad4octogono.es/" class="btn btn-primary" target="_blank">Learn More</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-4 mt-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Software Engineer</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">NTT Data | Nov/2023 - Ago/2024</h6>
+                        <ul>
+                            <li>Developed and maintained web applications</li>
+                            <li>Participated in code reviews and testing</li>
+                            <li>Collaborated with cross-functional teams to deliver projects on time</li>
+                        </ul>
+                        <a href="https://es.nttdata.com/" class="btn btn-primary" target="_blank">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mt-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">IT Consultant</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Timestamp | Jul/2022 - Oct/2023</h6>
+                        <ul>
+                            <li>Developed microservices using Java and Spring Boot</li>
+                            <li>Integrated messaging systems with RabbitMQ</li>
+                            <li>Optimized database queries using PostgreSQL</li>
+                        </ul>
+                        <a href="https://www.timestampgroup.com/" class="btn btn-primary" target="_blank">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mt-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Junior System Engineer</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Minsait | Jun/2021 - Jul/2022</h6>
+                        <ul>
+                            <li>Worked on large-scale applications with Java and Spring Framework</li>
+                            <li>Collaborated in Agile teams to implement new features</li>
+                            <li>Improved application performance by 30%</li>
+                        </ul>
+                        <a href="https://www.minsait.com/pt" class="btn btn-primary" target="_blank">Learn More</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-4 mt-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Intern</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Motorola Mobility | Oct/2019 - Nov/2020</h6>
+                        <ul>
+                            <li>Developed and maintained web applications</li>
+                            <li>Participated in code reviews and testing</li>
+                            <li>Collaborated with cross-functional teams to deliver projects on time</li>
+                        </ul>
+                        <a href="https://www.hellomoto.com.br/the-office-jaguariuna/" class="btn btn-primary" target="_blank">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="projects" class="container mt-5">
+        <h2 class="text-center" id="projects-title">Projects</h2>
+        
+        <div class="row">
+            <div class="col-md-4 mt-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Chromamon <strong>(Ongoing)</strong></h5>
+                        <p class="card-text" id="card-text-chromamon">Chromamon is a microservice created to efficiently analyze and generate results of chromatographic analysis on substation transformers. It was build using Java with Spring Boot and Python in the back-end with Angular in the front-end, messaging with RabbitMQ e PostgreSQL for the database</p>
+                        <a href="https://github.com/Paulo-Possatto/Chromamon" class="btn btn-primary" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mt-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Financial Crime</h5>
+                        <p class="card-text" id="card-text-fc">Financial Crime is a microservice responsible for detecting crime-related financial operations to prevent any future acts of civil harm. It utilizes Java with Spring Boot for all the processing and RabbitMQ for messaging between services.</p>
+                        <h6 id="card-ref-fc">Business Domain Project</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mt-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Fault Alarm Automation</h5>
+                        <p id="card-text-fault" class="card-text">Using MySQL, MongoDB and Groovy, the Fault Alarm Automation project was created to maximize efficiency with creating alarms related to failures in telecommunication, solving the problem as fast as possible.</p>
+                        <h6 id="card-ref-fault">Business Domain Project</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about" class="container mt-5">
+        <h2 class="text-center" id="about-title">About Me</h2>
+        
+        <div class="row">
+            <div class="col-md-4">
+                <img src="assets/images/image.jpg" alt="Me" class="img-fluid rounded-circle mb-4" />
+            </div>
+            
+            <div class="col-md-8">
+                <p>
+                    I'm a passionate software developer with over 5 years of experience in creating web applications and back-end systems. I specialize in Java development with Spring Boot and enjoy building scalable and efficient systems. I am always eager to learn new technologies and keep up with the latest trends in the tech industry.
+                </p>
+                
+                <p>
+                    My journey in technology began when I was 15 years old, when I first encountered Arduino in my robotics class, then later learning about other programming languages, even at studying the electrical engineering. Since then, I have had the opportunity to work on a variety of projects, from microservices architectures to full-stack development, and I am always seeking to improve my skills and deliver high-quality software.
+                </p>
+                
+                <p>
+                    In addition to my professional skills, I am passionate about problem-solving, working in teams, and continuous learning. I am currently exploring new technologies trending in the IT market and studying new versions of the technologies that I already know.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="contact" class="container mt-5 mb-5 text-center">
+        <h2 class="text-center" id="contact-title">Contact</h2>
+        <p id="contact-paragraph">Feel free to reach out through the links below:</p>
+        <div class="mt-3">
+            <a href="https://github.com/Paulo-Possatto" target="_blank" class="me-3"><img src="assets/images/github.png" alt="GitHub" width="30"></a>
+            <a href="https://www.linkedin.com/in/paulopossatto" target="_blank" class="me-3"><img src="assets/images/linkedin.png" alt="LinkedIn" width="30"></a>
+        </div>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
