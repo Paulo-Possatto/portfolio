@@ -72,6 +72,10 @@ body.dark-mode {
     color: #555;
 }
 
+.dark-mode #about h3, .dark-mode #about p {
+    color: rgb(194, 194, 194);
+}
+
 #about a {
     color: #007bff;
     text-decoration: none;
@@ -79,5 +83,9 @@ body.dark-mode {
 
 #about a:hover {
     text-decoration: underline;
+}
+
+#nav-contact {
+    margin-right: 20px;
 }
 
