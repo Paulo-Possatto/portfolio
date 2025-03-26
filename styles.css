@@ -89,3 +89,14 @@ body.dark-mode {
     margin-right: 20px;
 }
 
+.skill-segment ul ul li {
+    margin-top: 2px;
+    list-style-type: '✓  ';
+    
+}
+
+.skill-segment ul li {
+    margin-top: 5px;
+    list-style-type: disclosure-closed;
+}
+

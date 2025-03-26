@@ -10,10 +10,12 @@ const translations = {
         "download-resume": "Download Resume",
         "projects-title": "Projects",
         "about-title": "About Me",
+        "skills-title": "Skills",
         "experience-title": "Experience",
         "contact-title": "Contact",
         "nav-home": "Home",
         "nav-projects": "Projects",
+        "nav-skills": "Skills",
         "nav-about": "About Me",
         "nav-experience": "Experience",
         "nav-contact": "Contact",
@@ -44,6 +46,7 @@ const translations = {
         "li1-moto-info": "Verified modifications after new OS update releases",
         "li2-moto-info": "Reviewed code with a multinationality team",
         "li3-moto-info": "Created large scale tool from the beginning",
+        "tools-title": "Tools",
     },
     es: {
         "home-title": "Hola, soy Paulo Possatto, Desarrollador de Back-end",
@@ -52,11 +55,13 @@ const translations = {
         "download-resume": "Descargar CV",
         "projects-title": "Proyectos",
         "about-title": "Acerca de mí",
+        "skills-title": "Habilidades",
         "experience-title": "Experiencia",
         "contact-title": "Contacto",
         "nav-home": "Inicio",
         "nav-projects": "Proyectos",
         "nav-about": "Acerca de mí",
+        "nav-skills": "Habilidades",
         "nav-contact": "Contacto",
         "nav-experience": "Experiencia",
         "contact-paragraph": "No dudes en contactarme a través de los enlaces abajo:",
@@ -86,6 +91,7 @@ const translations = {
         "li1-moto-info": "Verificación de modificaciones después de nuevas versiones del OS",
         "li2-moto-info": "Revisión de código con un equipo multinacional",
         "li3-moto-info": "Creación de herramienta a gran escala desde el principio",
+        "tools-title": "Herramientas",
     }
 };
 
